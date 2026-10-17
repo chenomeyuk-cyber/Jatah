@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Jatah</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#0B1222">
+  <link rel="icon" href="icon.svg">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap">
+  <link rel="stylesheet" href="ui/style.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  <nav>
+    <div>
+      <button class="n on" data-t="home">Home</button>
+      <button class="fab" id="fab" aria-label="Catat">+</button>
+      <button class="n" data-t="hist">Riwayat</button>
+    </div>
+  </nav>
+  <div class="bd" id="bd"></div>
+  <div class="sheet" id="sheet" role="dialog"></div>
+  <div class="toast" id="toast"><span id="tmsg"></span><button id="tact"></button></div>
+  <script type="module" src="ui/app.js"></script>
+</body>
+
+</html>
